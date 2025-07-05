@@ -1,0 +1,71 @@
+.careercard {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.careercard img {
+    border-radius: 20px;
+    width: 36rem;
+    margin-right: 20px;
+}
+
+.workwithus:hover {
+    background-color: #f6b360;
+}
+
+.workwithus {
+    margin-top: 10px;
+    background-color: #f89d2d;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.carddetial {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.carddetial h1 {
+    margin-bottom: 20px;
+}
+
+.jobsection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 67.2rem;
+    margin: auto;
+}
+
+.openingjob {
+    width: 18rem;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #dde6ed;
+}
+
+.openingjob button {
+    border: none;
+    background: none;
+    margin-top: 20px;
+    color: #f89d2d;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 400;
+}

@@ -1,0 +1,70 @@
+.headincontact {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: fit-content;
+    align-items: flex-end;
+}
+
+.headincontact h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.headincontact h1 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: rgb(82, 82, 82);
+    width: 33rem;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.formdivstart {
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 40px;
+}
+
+input {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f2f2ff;
+    width: 25rem;
+}
+
+input:focus {
+    border: 2px solid #00bfff;
+    background-color: #d6d6ff;
+    outline: none;
+    /* box-shadow: 0px 0px 8px 5px green; */
+}
+
+textarea {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2f2ff;
+    resize: none;
+}
+textarea:focus{
+    border: 2px solid #00bfff;
+    background-color: #d6d6ff;
+    outline: none;
+}
+.formsubmit{
+    width:fit-content;
+    border: none;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 30px;
+    width: 10rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
