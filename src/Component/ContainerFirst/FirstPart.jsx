@@ -33,6 +33,7 @@ function FirstPart() {
         
             <SecondPart />
             <ThirdPart />
+            <ChatboxPage/>
         </>
     )
 }
