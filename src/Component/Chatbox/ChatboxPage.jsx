@@ -100,7 +100,7 @@ function ChatboxPage() {
                         ))}
                     </div>
                     <div className='messageinput'>
-                        <textarea name="messagebox" id="messagebox2" cols="45" rows="3" onChange={(e) => setMyinputMessage(e.target.value)} value={inputMessage} placeholder='Write a message' onKeyDown={(event) => event.key === 'Enter' && handleSendMessage()}></textarea>
+                        <textarea disabled={isLoggedIn} name="messagebox" id="messagebox2" cols="45" rows="3" onChange={(e) => setMyinputMessage(e.target.value)} value={inputMessage} placeholder='Write a message' onKeyDown={(event) => event.key === 'Enter' && handleSendMessage()}></textarea>
                         <img src={image4} alt="send" onClick={handleSendMessage} />
                     </div>
                 </div>
