@@ -41,9 +41,3 @@
 .headingdiv p {
     width: 30rem;
 }
-@media screen and (max-width:480px) {
-    .SecondPartcontainer {
-        display: none;
-    }
-
-}

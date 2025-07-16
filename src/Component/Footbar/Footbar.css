@@ -86,14 +86,3 @@
     color: white;
     padding: 10px;
 }
-
-@media screen and (max-width:480px) {
-    .footbardiv {
-        display: none;
-    }
-
-    .seconddetailslist {
-        display: none;
-    }
-
-}

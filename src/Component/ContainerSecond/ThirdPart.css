@@ -87,13 +87,6 @@
 .list img {
     margin-right: 10px;
 }
-
-@media screen and (max-width:480px) {
-    .thirdpartcontainer {
-        display: none;
-    }
-
-}
 h1 {
     margin: 0px;
     padding: 0px;

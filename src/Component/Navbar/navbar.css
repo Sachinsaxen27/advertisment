@@ -40,10 +40,3 @@
     padding: 12px;
     border-radius: 30px;
 }
-
-@media screen and (max-width:480px) {
-    #navbarmaindiv {
-        display: none;
-    }
-
-}
