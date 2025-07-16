@@ -13,23 +13,36 @@
     width: -webkit-fill-available;
     justify-content: space-evenly;
 }
+
 .divdetials h5 {
     margin: 0px;
     padding: 0px;
     color: #1B1A1A;
     font-size: 18px;
 }
+
 .divdetials div {
     font-size: 17px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #1B1A1A;
 }
+
+.connectmedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.socialmedia{
+    margin: 10px;
+}
 .divdetials a {
     cursor: pointer;
     text-decoration: None;
     color: black;
 }
+
 .seconddetailslist {
     display: flex;
     justify-content: center;
@@ -52,15 +65,19 @@
     position: relative;
     left: 4.5rem;
 }
-.divdetials div{
+
+.divdetials div {
     cursor: pointer;
 }
-.divdetials div:hover{
+
+.divdetials div:hover {
     color: blue;
 }
-.divdetials a:hover{
+
+.divdetials a:hover {
     color: blue;
 }
+
 .buttoninternship {
     border: none;
     border-radius: 20px;

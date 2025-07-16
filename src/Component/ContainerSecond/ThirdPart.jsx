@@ -4,29 +4,43 @@ import reactangle2 from '../../Image/Intern.png'
 import startup from '../../Image/startup.png'
 import smart from '../../Image/smart.png'
 import ribbon from '../../Image/ribbon.svg'
+import future from '../../Image/future.svg'
 function ThirdPart() {
     return (
         <>
-            <div className='thirdpartcontainer'>
-                <div className='thirdparsecondcontainer'>
-                    <div className='divblockcontent'>
-                        <div className='divblockreactangle'>
-                            <img src={reactangle2} alt="" />
-                        </div>
-                        <div>
-                            <div className='headincontainer'>
-                                <h1>New-age energy of a Startup <br /> with a strong foundation.</h1>
-                            </div>
-                            <button className='internwithus'>Intern with Us</button>
-                        </div>
+            <div>
+                <div className='divfutureblock'>
+                    <div className='divdetailsfuture'>
+                        <h1>New-age energy of a Startup <br /> with a strong foundation.</h1>
+                        <p>
+                            We focus on building websites that not only look great but actually deliver business results.
+                        </p>
+                        <ul>
+                            <li>
+                                <i className="fa-regular fa-circle-check" style={{ color: "#000000", marginRight: "10px" }} />
+                                <div>
+                                    Say goodbye to the hassle—our websites are easy to manage, optimized for performance, and built to convert.
+                                </div>
+                            </li>
+                            <li>
+                                <i className="fa-regular fa-circle-check" style={{ color: "#000000", marginRight: "10px" }} />
+                                <div>
+                                    Stop wasting time and money designing and managing.
+                                </div>
+                            </li>
+                            <li>
+                                <i className="fa-regular fa-circle-check" style={{ color: "#000000", marginRight: "10px" }} />
+                                <div>
+                                    We stand by our work with a commitment to quality, performance, and your happiness—guaranteed.
+                                </div>
+                            </li>
+                        </ul>
+                        <button className='buttoninternus'>Inter With Us</button>
                     </div>
+                    <img src={future} alt="future" />
                 </div>
             </div>
             <div className='thirdpartcontainer'>
-                <div className='headincontainer'>
-                    <h1>We have plans for everyone!.</h1>
-                    <p>We started with a strong foundation, then simply built all of the sales <br /> and marketing tools ALL businesses need under one platform.</p>
-                </div>
                 <div className='fourtpartcontainer'>
                     <div className='card'>
                         <div>
@@ -53,15 +67,15 @@ function ThirdPart() {
                         <div className='card-ribbon'>
                             <img src={ribbon} alt="ribbon" className='ribbon' />
                         </div>
-                        <div className='div-business' style={{position: " relative", bottom: "153px"}}>
-                        <img src={smart} alt="" style={{ width: "30rem", filter: "drop-shadow(2px 4px 6px black)",height:'31.3rem',marginTop:'-25px'}} />
-                        <br />
-                        <h1  style={{marginTop:'21px'}}>Empowering growth through Smart <br /> Digital Solutions</h1>
-                        <button className='buttonservice'>See all services <i className="fa-solid fa-arrow-right-long" style={{ color: "#FFD43B" }} /></button>
+                        <div className='div-business' style={{ position: " relative", bottom: "153px" }}>
+                            <img src={smart} alt="" style={{ width: "30rem", filter: "drop-shadow(2px 4px 6px black)", height: '31.3rem', marginTop: '-25px' }} />
+                            <br />
+                            <h1 style={{ marginTop: '21px' }}>Empowering growth through Smart <br /> Digital Solutions</h1>
+                            <button className='buttonservice'>See all services <i className="fa-solid fa-arrow-right-long" style={{ color: "#FFD43B" }} /></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div >
+            </div >
         </>
     )
 }

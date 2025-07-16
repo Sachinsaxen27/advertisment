@@ -1,41 +1,76 @@
 import React from 'react';
 import logo from '../../Image/cloud.png';
 import './Footbar.css';
-
+import { Link } from 'react-router';
 function Footbar() {
     return (
         <>
             <div className='footbardiv'>
                 <div style={{ width: "32.8rem", marginLeft: '50px' }}>
-                    <img src={logo} alt="cloud" style={{ width: '100px' }} />
+                    <h2 style={{padding:'0px',margin:'0px'}}>DesignHacker</h2>
                     <h1>Digital Development Studio</h1>
+                    <div className='connectmedia'>
+                        <div className='socialmedia'>
+                            <Link to="https://www.instagram.com/evolancytech/" target='_blank'>
+                                <i className="fa-brands fa-square-instagram fa-2xl" style={{ color: "#f53d00" }} />
+                            </Link>
+                        </div>
+                        <div className='socialmedia'>
+                            <Link to="https://www.linkedin.com/company/evolancy-technologies/" target='_blank'>
+                                <i className="fa-brands fa-linkedin fa-2xl" style={{ color: "#190193" }} />
+                            </Link>
+                        </div>
+                        <div className='socialmedia' >
+                            <Link to="https://whatsapp.com/channel/0029VbAyGrTIyPtZRsmone1g" target='_blank'>
+                                <i className="fa-brands fa-square-whatsapp fa-2xl" style={{ color: "#00d619" }} />
+                            </Link>
+                        </div>
+                        <div className='socialmedia'>
+                            <i className="fa-solid fa-envelope fa-2xl" style={{ color: "#74C0FC" }} />
+                        </div>
+                    </div>
                 </div>
                 <div className='detailsblock'>
                     <div className='divdetials'>
-                        <h5>Company</h5>
-                        <div>About Us</div>
-                        <div>Services</div>
-                        <div>Careers</div>
-                        <div>Contact</div>
+                        <h5>Quick Link</h5>
+                        <div>
+                            <Link to='/about'>
+                                About Us
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to='/service'>
+                                Services
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to='/career'>
+                                Careers
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to='/contact'>
+                                Contact
+                            </Link>
+                        </div>
                     </div>
                     <div className='divdetials'>
-                        <h5>Connect</h5>
+                        <h5>Service</h5>
                         <div>
-                            <a href="https://www.linkedin.com/company/evolancy-technologies/" target='_blank'>
-                                Linkedin
-                            </a>
+                            Web Design
                         </div>
                         <div>
-                            <a href="https://www.instagram.com/evolancytech/" target='_blank'>
-                                Instagram
-                            </a>
+                            Web Development
                         </div>
                         <div>
-                            <a href="https://whatsapp.com/channel/0029VbAyGrTIyPtZRsmone1g" target='_blank'>
-                                WhatsApp
-                            </a>
+                            Digital Marketing
                         </div>
-
+                        <div>
+                            AI & Automation
+                        </div>
+                        <div>
+                            App Development
+                        </div>
                     </div>
                     <div className='divdetials' style={{ textAlign: 'center' }}>
                         <h5 style={{ marginBottom: "10px" }}>Join Us</h5>
@@ -44,7 +79,7 @@ function Footbar() {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div >
 
         </>
 

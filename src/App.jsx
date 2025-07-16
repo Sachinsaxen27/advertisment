@@ -7,11 +7,13 @@ import Footbar from './Component/Footbar/Footbar';
 import ServicePage from './Component/Service/ServicePage';
 import CareerPage from './Component/Career/CareerPage';
 import ContactPage from './Component/Contact/ContactPage';
+import Scrolltop from './Component/Scrolltop';
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <Scrolltop/>
         <Routes>
           <Route path='/' element={<FirstPart />} />
           <Route path='/about' element={<AboutPage />} />

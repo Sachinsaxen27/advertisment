@@ -1,6 +1,7 @@
 .divFirstPart {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 6rem;
 }
@@ -11,19 +12,32 @@
     margin-bottom: 10px;
     font-size: 48px;
     color: #30404D;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .categoryname {
-    margin: auto;
+    margin: 0px;
     padding: 0px;
     font-size: 16.3px;
+    width: 45rem;
     color: #30404D;
 }
-.buttondivs{
+
+.slideHeading{
     display: flex;
-    justify-content: flex-start;
-    margin-top: 60px;
+    flex-direction: column;
+    text-align: center;
 }
+/* .officalrec{
+    margin-top: 20px;
+} */
+.buttondivs {
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 30px;
+}
+
 .rightarrow {
     padding: 10px;
     width: 15rem;
@@ -49,7 +63,8 @@
     font-weight: 600;
     font-size: 18px;
 }
-.playbutton img{
+
+.playbutton img {
     margin-right: 10px;
 }
 
@@ -89,8 +104,8 @@
 }
 
 @media screen and (max-width:480px) {
-    .divFirstPart{
-        display:none;
+    .divFirstPart {
+        display: none;
     }
-    
+
 }
