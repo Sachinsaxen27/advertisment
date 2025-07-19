@@ -43,20 +43,6 @@
     display: flex;
     justify-content: flex-end;
 }
-
-.landingchatbox {
-    position: fixed;
-    bottom: 87px;
-    right: 15px;
-    margin-left: 0px;
-}
-
-.chattextarea {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: none;
-}
-
 .messagecard {
     border: none;
     width: max-content;
@@ -91,34 +77,12 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-
-.formfill {
-    margin: 0px;
-    font-size: 12px;
-    width: 15rem;
-    padding: 10px;
-    border-radius: 10px;
-}
-
 .usermessage {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 }
 
-.usermessage div {
-    background-color: #FFFFFF;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.messageadmin {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 .teamsmembermessage {
     width: fit-content;
@@ -127,19 +91,6 @@
     background-color: #FFFFFF;
     margin-left: 5px;
     border: none;
-}
-
-.inputchatformoption {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.inputchatformoption input {
-    border: none;
-    border-bottom: 1px solid #EEEEEE;
-    margin-top: 10px;
 }
 
 #messagebox2 {
@@ -194,13 +145,6 @@ textarea:focus {
     font-size: 14px;
     line-height: 1.4;
 }
-.chatbotlandings{    
-    /* max-width: 60%; */
-    padding: 10px 15px;
-    border-radius: 15px;
-    font-size: 14px;
-    line-height: 1.4;
-}
 .chatbotlanding.user {
     background-color: #FFFFFF;
     align-self: flex-end;
@@ -209,18 +153,6 @@ textarea:focus {
     background-color: #FFFFFF;
     align-self: flex-start;
     
-}
-.chatbotlandings.user{
-    background-color: #FFFFFF;
-    align-self: flex-end;
-}
-.chatbotlandings.admin{
-    background-color: #FFFFFF;  
-    align-self: flex-start;
-}
-.chatbotlandings.forms{
-    background-color: transparent   ;
-    align-self: flex-start;
 }
 .tempraroychat {
     display: flex;
