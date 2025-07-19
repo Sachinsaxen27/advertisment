@@ -30,10 +30,11 @@
     text-align: center;
 }
 
-.imagehero{
+.imagehero {
     width: 30rem;
     height: 25rem;
 }
+
 .buttondivs {
     display: flex;
     justify-content: flex-start;
@@ -107,19 +108,25 @@
 
 
 @media screen and (max-width:480px) {
-    .divFirstPart{
+    .divFirstPart {
         margin-top: 1rem;
     }
-    .imagehero{
+
+    .imagehero {
         width: 22rem;
         margin-top: 25px;
     }
-    .slideHeading{
+
+    .slideHeading {
         width: 24rem;
+        justify-self: center;
+        align-items: center;
     }
+
     .h1heading {
         font-size: 22px;
     }
+
     .categoryname {
         text-align: center;
         font-size: 13px;

@@ -6,9 +6,9 @@ function Footbar() {
     return (
         <>
             <div className='footbardiv'>
-                <div style={{ width: "32.8rem", marginLeft: '50px' }}>
+                <div className='footbarheading' >
                     <h2 style={{padding:'0px',margin:'0px'}}>DesignHacker</h2>
-                    <h1>Digital Development Studio</h1>
+                    <h1 className='footbarh1heading'>Digital Development Studio</h1>
                     <div className='connectmedia'>
                         <div className='socialmedia'>
                             <Link to="https://www.instagram.com/evolancytech/" target='_blank'>

@@ -30,54 +30,14 @@ function CareerPage() {
     ]
     return (
         <>
-            {/* <div className='careercard'>
-                <div className='carddetial'>
-                    <h1>
-                        We serve clients with ground <br /> breaking solutions
-                    </h1>
-                    <button className='workwithus' onClick={scrolldown}>
-                        View Openings
-                    </button>
-                </div>
-                <img src={image1} alt="service" />
-            </div>
-            <div id='openjob'>
-                <h1 style={{textAlign:'center',marginTop:"20px",marginBottom:"10px"}}>See our Open Positions</h1>
-                <div className='jobsection'>
-                    <div className='openingjob'>
-                        <h2>Web Developer Intern</h2>
-                        <p>Remote · Part Time</p>
-                        <button>Apply Now</button>
-                    </div>
-                    <div className='openingjob'>
-                        <h2>UI/UX Design Intern</h2>
-                        <p>Remote · Part Time</p>
-                        <button>Apply Now</button>
-                    </div>
-                    <div className='openingjob'>
-                        <h2>Digital Marketing Intern</h2>
-                        <p>Remote · Part Time</p>
-                        <button>Apply Now</button>
-                    </div>
-                    <div className='openingjob'>
-                        <h2>AI Intern</h2>
-                        <p>Remote · Part Time</p>
-                        <button>Apply Now</button>
-                    </div>
-                    <div className='openingjob'>
-                        <h2>App Development Intern</h2>
-                        <p>Remote · Part Time</p>
-                        <button>Apply Now</button>
-                    </div>
-                </div>
-            </div> */}
+
             <div>
                 <div className='headingdiv'>
                     <div>
                         <h1>Join a Team That Builds with Purpose</h1>
                         <button type="button" className="btn" onClick={scrolldown}>See Open Role</button>
                     </div>
-                    <img src={image1} alt="" />
+                    <img src={image1} alt="" className='imagecareer'/>
                 </div>
                 <div className='whyus'>
                     <div className='rolesection'>

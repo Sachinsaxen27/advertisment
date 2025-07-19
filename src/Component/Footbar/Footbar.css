@@ -34,9 +34,11 @@
     flex-wrap: wrap;
     margin-top: 20px;
 }
-.socialmedia{
+
+.socialmedia {
     margin: 10px;
 }
+
 .divdetials a {
     cursor: pointer;
     text-decoration: None;
@@ -86,11 +88,31 @@
     color: white;
     padding: 10px;
 }
+
+.footbarheading {
+    width: 32.8rem;
+    margin-left: 50px;
+}
+
 @media screen and (max-width:430px) {
-    .connectmedia{
+    .footbardiv {
+        margin-top: 0px;
+    }
+    .footbarheading {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footbarh1heading{
+        margin-top: 12px;
+        font-size: 22px;
+    }
+    .connectmedia {
         display: none;
     }
-    .detailsblock{
-        display:none;
+
+    .detailsblock {
+        display: none;
     }
-} 
+}

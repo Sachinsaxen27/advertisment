@@ -85,35 +85,35 @@ function ServicePage() {
                 <div className='servicesection'>
                     <div className='serviceblock'>
                         <div className='newservielook'>
-                            <div className='serviceimage'><img src={layout} alt="layout"/></div>
+                            <div className='serviceimage'><img src={layout} alt="layout" /></div>
                             <div className='serviceheading'>
                                 <h1> Web Designing</h1>
                                 <p>We craft visually engaging and responsive websites that not only look great but also provide seamless user experiences.</p>
                             </div>
                         </div>
                         <div className='newservielook'>
-                            <div className='serviceimage'><img src={webdesign} alt="webdesign"/></div>
+                            <div className='serviceimage'><img src={webdesign} alt="webdesign" /></div>
                             <div className='serviceheading'>
                                 <h1> Web Development</h1>
                                 <p>We craft visually engaging and responsive websites that not only look great but also provide seamless user experiences.</p>
                             </div>
                         </div>
                         <div className='newservielook'>
-                            <div className='serviceimage'><img src={digital} alt="webdesign"/></div>
+                            <div className='serviceimage'><img src={digital} alt="webdesign" /></div>
                             <div className='serviceheading'>
                                 <h1>Digital Marketing</h1>
                                 <p>We craft visually engaging and responsive websites that not only look great but also provide seamless user experiences.</p>
                             </div>
                         </div>
                         <div className='newservielook'>
-                            <div className='serviceimage'><img src={ai} alt="webdesign"/></div>
+                            <div className='serviceimage'><img src={ai} alt="webdesign" /></div>
                             <div className='serviceheading'>
                                 <h1> AI & Automation</h1>
                                 <p>We craft visually engaging and responsive websites that not only look great but also provide seamless user experiences.</p>
                             </div>
                         </div>
                         <div className='newservielook'>
-                            <div className='serviceimage'><img src={app} alt="webdesign"/></div>
+                            <div className='serviceimage'><img src={app} alt="webdesign" /></div>
                             <div className='serviceheading'>
                                 <h1> App Development</h1>
                                 <p>We craft visually engaging and responsive websites that not only look great but also provide seamless user experiences.</p>
@@ -121,21 +121,22 @@ function ServicePage() {
                         </div>
                     </div>
                     <div>
-                        <img src={service} alt="" />
+                        <img src={service} alt="" className='imageservicediv' />
                     </div>
                 </div>
-              
+
                 <div className='demolinkdiv'>
                     <div>
-                        <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>Watch Our Promo Video</h1>
-                        <p style={{ textAlign: 'center', width: '35rem', margin: 'auto' }}>Grab exclusive deals and limited-time offers to boost your business. Don’t miss out—unlock your savings today!</p>
+                        <h1 className='demolinkheadingh1'>Watch Our Promo Video</h1>
+                        <p className='demolinkparap' >Grab exclusive deals and limited-time offers to boost your business. Don’t miss out—unlock your savings today!</p>
                     </div>
-                    <iframe width="660" height="415" src="https://www.youtube.com/embed/8oON21G1Bqg?si=pZ1TMNaJXqHvDJjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    {/* width="660" height="415" */}
+                    <iframe className='youtubevideo' src="https://www.youtube.com/embed/8oON21G1Bqg?si=pZ1TMNaJXqHvDJjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div style={{ marginTop: '50px', marginBottom: '20px' }}>
                     <div>
-                        <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>Our Technical Team</h1>
-                        <p style={{ textAlign: 'center', width: '35rem', margin: 'auto' }}>A passionate group of designers, developers, and strategists dedicated to delivering innovative solutions. Together, we combine creativity, technology, and experience to help your business grow.</p>
+                        <h1 className='teammemberheading'>Our Technical Team</h1>
+                        <p className='teammemberpara' >A passionate group of designers, developers, and strategists dedicated to delivering innovative solutions. Together, we combine creativity, technology, and experience to help your business grow.</p>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', marginTop: '20px' }}>
                         {teamarray?.map((value, index) => {

@@ -82,7 +82,6 @@ textarea {
 }
 
 .divimageconnect {
-    /* backgroundColor:"blue",width:'2.5rem',padding:"10px",borderRadius:"35px" */
     background-color: #0d6efd;
     width: 2.5rem;
     padding: 10px;
@@ -93,4 +92,47 @@ textarea {
 .divimageconnect img {
     width: 35px;
     margin-left: 3px;
+}
+
+#textareaimage {
+    bottom: 10rem;
+    left: 36.5rem;
+    width: 14px;
+}
+.connectheadingdiv{
+    margin-left: 30px;
+    /* style={{marginLeft:"30px"}} */
+}
+@media screen and (max-width:430px) {
+
+    .connectdiv {
+        flex-direction: column;
+    }
+
+    .forminput {
+        width: 24rem;
+        flex-direction: column;
+    }
+
+    input {
+        width: 24rem;
+    }
+
+    .inputimage {
+        left: 23rem;
+    }
+
+    #textareaimage {
+        left: 23.5rem;
+    }
+
+    #usermessagearea {
+        width: 24.2rem;
+    }
+    .connectheading p{
+        width: auto;
+    }
+    .connectheadingdiv{
+        margin-left: 0px;
+    }
 }

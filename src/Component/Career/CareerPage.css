@@ -8,10 +8,9 @@
     margin-bottom: 20px;
 }
 
-.headingdiv img {
+.imagecareer {
     width: 53rem;
 }
-
 .btn {
     border: none;
     border-radius: 20px;
@@ -85,4 +84,10 @@
 
 #openjob {
     margin-top: 20px;
+}
+
+@media screen and (max-width:430px) {
+ .imagecareer{
+    width: 25rem;
+ }   
 }

@@ -46,8 +46,18 @@
     .SecondPartcontainer{
         margin-top: -3.6rem;
     }
+    .headingdiv{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .headingdiv h1{
+        font-size: 27px;
+    }
     .headingdiv p{
         width: auto;
+        margin-top: 5px;
+        font-size: 18px;
+        font-weight: 100;
     }
     .servicediv{
         margin: 10px;

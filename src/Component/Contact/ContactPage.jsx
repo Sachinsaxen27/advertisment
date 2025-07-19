@@ -15,50 +15,46 @@ function ContactPage() {
                 <div>
                     <form>
                         <div className='forminput'>
-                            <label htmlFor="username">
+                            <label htmlFor="name">
                                 <span>
                                     Name
                                 </span>
-                                <input type="text" name="username" id="usernam" placeholder='Name' />
+                                <input type="text" name="name" id="username" placeholder='Name' />
                                 <img src={user} alt="" className='inputimage' />
                             </label>
-                            <label htmlFor="useremail">
+                            <label htmlFor="email">
                                 <span>
                                     Email
                                 </span>
-                                <input type="text" name="useremail" id="useremail" placeholder='Email' />
+                                <input type="text" name="email" id="useremail" placeholder='Email' />
                                 <img src={mail} alt="" className='inputimage' />
                             </label>
                         </div>
                         <div className='forminput'>
 
-                            <label htmlFor="usernumber"><span>
+                            <label htmlFor="number"><span>
                                 Number
                             </span>
-                                <input type="number" name="usernumber" id="usernumber" placeholder='Number' />
+                                <input type="number" name="number" id="usernumber" placeholder='Number' />
                                 <img src={telephone} alt="" className='inputimage' />
                             </label>
                             <label htmlFor="subject"><span>
                                 Subject
                             </span>
-                                <input type="text" name="subject" id="subject" placeholder='Subject' />
+                                <input type="text" name="subject" id="usersubject" placeholder='Subject' />
                                 <img src={title} alt="" className='inputimage' />
                             </label>
                         </div>
                         <label htmlFor="messagearea"><span>
                             Message
                         </span>
-                            <textarea name="messagearea" id="messagearea" cols="79" rows="10" placeholder='Message'></textarea>
-                            <img src={message} alt="" className='inputimage' style={{
-                                bottom: "10rem",
-                                left: "36.5rem",
-                                width: "14px"
-                            }} />
+                            <textarea  name="messagearea" id="usermessagearea" cols="79" rows="10" placeholder='Message'></textarea>
+                            <img id='textareaimage' src={message} alt="" className='inputimage' />
                         </label>
                         <button type="submit" className='submitbutton'>Submit</button>
                     </form>
                 </div>
-                <div style={{marginLeft:"30px"}}>
+                <div className='connectheadingdiv'>
                     <div className='connectheading'>
                         <h1>Get in touch</h1>
                         <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>

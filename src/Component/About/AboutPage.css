@@ -5,3 +5,8 @@
     align-items: center;
     text-align: center;
 }
+@media screen and (max-width:430px) {
+    .errorimage{
+        width: 16rem;
+    }    
+}
