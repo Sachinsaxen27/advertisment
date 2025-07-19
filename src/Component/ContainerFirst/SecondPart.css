@@ -59,7 +59,14 @@
         font-size: 18px;
         font-weight: 100;
     }
-    .servicediv{
+    .servicediv{ 
+        padding:25px;
         margin: 10px;
+    }
+    .servicediv h1{
+        font-size: 25px;
+    }
+    .servicediv p{
+        font-size: 14px;
     }
 }

@@ -27,6 +27,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #FFFFFF;
+    z-index: 1;
 }
 
 .allienuser {
