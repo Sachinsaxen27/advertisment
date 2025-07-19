@@ -46,6 +46,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position:  relative; 
+    bottom: 153px;
 }
 
 .buttonservice {
@@ -152,7 +154,9 @@ li {
     .divdetailsfuture h1 {
         font-size: 31px;
     }
-
+    .div-business{
+        bottom: 6px;
+    }
     ul {
         width: auto;
     }
@@ -173,9 +177,13 @@ li {
         flex-direction: column;
     }
     .ribbon{
-        left: 14.3rem;
+        display: none;
     }
     .buttonservice{
-        right: 7.5rem ;
+        right: 6.5rem ;
+        top: 17px;
+    }
+    .thirdpartcontainer{
+        margin-bottom: 0rem;
     }
 }

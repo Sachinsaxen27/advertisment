@@ -67,7 +67,7 @@ function ThirdPart() {
                         <div className='card-ribbon'>
                             <img src={ribbon} alt="ribbon" className='ribbon' />
                         </div>
-                        <div className='div-business' style={{ position: " relative", bottom: "153px" }}>
+                        <div className='div-business'>
                             <img src={smart} alt="" className='imagestartup'  />
                             <br />
                             <h1 style={{ marginTop: '21px' }}>Empowering growth through Smart <br /> Digital Solutions</h1>
