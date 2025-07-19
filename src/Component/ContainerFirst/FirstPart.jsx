@@ -20,7 +20,7 @@ function FirstPart() {
                 </div>
                 <div>
                     <div className='slideHeadingsecond'>
-                        <img src={hero} alt="image" style={{ width: '30rem',height:'25rem' }} />
+                        <img src={hero} alt="image" className='imagehero' />
                     </div>
                 </div>
             </div>

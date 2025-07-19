@@ -41,3 +41,15 @@
 .headingdiv p {
     width: 30rem;
 }
+
+@media screen and (max-width:480px) {
+    .SecondPartcontainer{
+        margin-top: -7.2rem;
+    }
+    .headingdiv p{
+        width: auto;
+    }
+    .servicediv{
+        margin: 10px;
+    }
+}

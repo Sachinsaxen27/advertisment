@@ -58,6 +58,7 @@
     right: 10.5rem;
     font-size: 18px;
 }
+
 .listcontainer {
     display: flex;
     margin-top: 20px;
@@ -87,6 +88,7 @@
 .list img {
     margin-right: 10px;
 }
+
 h1 {
     margin: 0px;
     padding: 0px;
@@ -139,4 +141,41 @@ li {
     border-radius: 15px;
     background-color: #0d6efd;
     color: white;
+}
+
+.imagestartup {
+    width:30rem; 
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+@media screen and (max-width:480px) {
+    .divdetailsfuture h1 {
+        font-size: 31px;
+    }
+
+    ul {
+        width: auto;
+    }
+
+    .imagefuture {
+        width: 24rem;
+    }
+    .card {
+        width: 24rem;
+    }
+    .imagestartup{
+        width: 22rem;
+    }
+    .startupheading{
+        font-size: 26px;
+    }
+    .listcontainer{
+        flex-direction: column;
+    }
+    .ribbon{
+        left: 14.3rem;
+    }
+    .buttonservice{
+        right: 7.5rem ;
+    }
 }

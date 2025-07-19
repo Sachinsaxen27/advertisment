@@ -86,3 +86,11 @@
     color: white;
     padding: 10px;
 }
+@media screen and (max-width:430px) {
+    .connectmedia{
+        display: none;
+    }
+    .detailsblock{
+        display:none;
+    }
+} 

@@ -37,18 +37,18 @@ function ThirdPart() {
                         </ul>
                         <button className='buttoninternus'>Inter With Us</button>
                     </div>
-                    <img src={future} alt="future" />
+                    <img src={future} alt="future" className='imagefuture'/>
                 </div>
             </div>
             <div className='thirdpartcontainer'>
                 <div className='fourtpartcontainer'>
                     <div className='card'>
                         <div>
-                            <img src={startup} alt="" style={{ width: "30rem", filter: "drop-shadow(2px 4px 6px black)" }} />
+                            <img src={startup} alt="" className='imagestartup'  />
                         </div>
                         <div>
                             <br />
-                            <h1 style={{ marginTop: "20px" }}>"A Startup Building for Startups"</h1>
+                            <h1 style={{ marginTop: "20px" }} className='startupheading'>"A Startup Building for Startups"</h1>
                             <div className='listcontainer'>
                                 <div className='list' style={{ marginRight: "20px" }}>
                                     <h1 style={{ color: "gold", fontWeight: '300' }}>15+</h1>
@@ -68,7 +68,7 @@ function ThirdPart() {
                             <img src={ribbon} alt="ribbon" className='ribbon' />
                         </div>
                         <div className='div-business' style={{ position: " relative", bottom: "153px" }}>
-                            <img src={smart} alt="" style={{ width: "30rem", filter: "drop-shadow(2px 4px 6px black)", height: '31.3rem', marginTop: '-25px' }} />
+                            <img src={smart} alt="" className='imagestartup'  />
                             <br />
                             <h1 style={{ marginTop: '21px' }}>Empowering growth through Smart <br /> Digital Solutions</h1>
                             <button className='buttonservice'>See all services <i className="fa-solid fa-arrow-right-long" style={{ color: "#FFD43B" }} /></button>
