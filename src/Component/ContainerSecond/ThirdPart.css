@@ -165,10 +165,11 @@ li {
         width: 24rem;
     }
     .card {
-        width: 24rem;
+        margin-top: 10px;
+        width: 20rem;
     }
     .imagestartup{
-        width: 22rem;
+        width: 20rem;
     }
     .startupheading{
         font-size: 26px;
